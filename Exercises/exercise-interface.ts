@@ -67,6 +67,10 @@ const Exercise2 = () => {
   interface City {
     coords: Coords;
   }
+  //  or
+  // interface Place extends City {
+  //   coords: Coords;
+  // }  
   
   const montreal = {
     coords: {
